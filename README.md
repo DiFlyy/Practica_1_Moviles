@@ -108,11 +108,12 @@ git clone https://github.com/tu-usuario/tu-repo.git
 4. Ejecutar la aplicación con Run ▶️.
 
 Evidencias de Kotlin:
-<img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/2911da02-4f43-43fb-b696-5f1dafcca12c" />
-<img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/a0cdeed4-254c-4eeb-a124-a379f6202cda" />
-<img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/ac19384e-b9a5-4427-8728-2a01ab65e533" />
-<img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/8800eb5a-41e9-4eea-af06-f9cbc847d717" />
-<img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/69c0aaf1-1ee1-45b7-9ed7-4121f2a24680" />
+![Screenshot_20250921-015604_Practica1_Moviles](https://github.com/user-attachments/assets/b2d99265-2342-47b6-8233-6dc44b6375b1)
+![Screenshot_20250921-015610_Practica1_Moviles](https://github.com/user-attachments/assets/edbb4a96-0869-4e3f-b5b9-38c5ba6a6708)
+![Screenshot_20250921-015618_Practica1_Moviles](https://github.com/user-attachments/assets/11b8827c-78c1-45e3-ae73-1955f2dbc71a)
+![Screenshot_20250921-015631_Practica1_Moviles](https://github.com/user-attachments/assets/da6b13f3-0a29-4bd3-b46c-11f504a9aa63)
+![Screenshot_20250921-015644_Practica1_Moviles](https://github.com/user-attachments/assets/20a01cfa-ea66-4a9c-8ac7-6093f8dd7d99)
+
 
 ---
 Dificultades encontradas
