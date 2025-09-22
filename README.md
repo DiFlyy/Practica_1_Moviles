@@ -105,13 +105,14 @@ git clone https://github.com/tu-usuario/tu-repo.git
 
 4. Ejecutar la aplicación con Run ▶️.
 
+---
+
 Evidencias de Kotlin:
 ![Screenshot_20250921-015604_Practica1_Moviles](https://github.com/user-attachments/assets/b2d99265-2342-47b6-8233-6dc44b6375b1)
 ![Screenshot_20250921-015610_Practica1_Moviles](https://github.com/user-attachments/assets/edbb4a96-0869-4e3f-b5b9-38c5ba6a6708)
 ![Screenshot_20250921-015618_Practica1_Moviles](https://github.com/user-attachments/assets/11b8827c-78c1-45e3-ae73-1955f2dbc71a)
 ![Screenshot_20250921-015631_Practica1_Moviles](https://github.com/user-attachments/assets/da6b13f3-0a29-4bd3-b46c-11f504a9aa63)
 ![Screenshot_20250921-015644_Practica1_Moviles](https://github.com/user-attachments/assets/20a01cfa-ea66-4a9c-8ac7-6093f8dd7d99)
-
 
 ---
 Dificultades encontradas
@@ -212,6 +213,7 @@ flutter build apk --release
 
 /build/app/outputs/flutter-apk/app-release.apk
 
+```
 📸 Evidencias
 ![Screenshot_20250921-225745](https://github.com/user-attachments/assets/0cd70938-fb3a-4050-9ec6-c4c5fee12ac1)
 ![Screenshot_20250921-225756](https://github.com/user-attachments/assets/b3e99433-af5b-4186-9190-d555ae7192b3)
@@ -219,6 +221,7 @@ flutter build apk --release
 ![Screenshot_20250921-225825](https://github.com/user-attachments/assets/ac477ac3-0543-4d82-813b-40723c3e85ca)
 ![Screenshot_20250921-225834](https://github.com/user-attachments/assets/339e3d3c-9558-4f71-a1b6-ffb28a28cebb)
 
+```
 ⚡ Dificultades encontradas
 
 Error de referencia en ListasScreen → resuelto verificando el nombre de la clase y el import correcto.
