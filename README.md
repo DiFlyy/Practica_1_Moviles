@@ -190,7 +190,7 @@ lib/
 1. Clona este repositorio:  
 
 ```bash
-git clone https://github.com/tu-usuario/flutter-practica-fragments.git
+git clone [https://github.com/tu-usuario/flutter-practica-fragments.git](https://github.com/DiFlyy/Practica_1_Moviles.git)
 
 2. Instala dependencias:
 
