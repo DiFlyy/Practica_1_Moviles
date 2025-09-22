@@ -38,15 +38,13 @@ Para este proyecto fue necesario instalar y configurar las siguientes herramient
 ---
 
 ### 📸 Evidencias de instalación
+Aquí se insertarán las capturas de pantalla del entorno de desarrollo configurado:
 
 <img width="1600" height="843" alt="image" src="https://github.com/user-attachments/assets/ef6a0fcb-39eb-4bb4-845b-b1481b315db4" />
+<img width="1077" height="130" alt="Maven" src="https://github.com/user-attachments/assets/91c5b2ad-b3b9-47f3-86ff-938d3af21996" />
+<img width="1023" height="333" alt="Flutter" src="https://github.com/user-attachments/assets/f5f040c7-4138-4a27-8570-08ea337313ca" />
 
-_Aquí se insertarán las capturas de pantalla del entorno de desarrollo configurado:_  
-1. Instalación de Android Studio  
-2. Emulador ejecutando la app "Hello Android"  
-3. Configuración de Git y GitHub  
-4. Instalación de Docker y Node.js  
-5. Instalación de Flutter  
+
 
 ---
 
@@ -95,7 +93,7 @@ Crear una aplicación Android que demuestre el uso de **Activities** y **Fragmen
 
 ---
 
-## ▶️ Instrucciones de ejecución
+## ▶️ Instrucciones de ejecución con Kotlin
 
 1. Clonar el repositorio:
 
@@ -142,6 +140,103 @@ La estructura modular con Fragments hace que la app sea más mantenible y escala
 📸 Agregar capturas y videos de la app en funcionamiento.
 
 📄 Mejorar la documentación con ejemplos visuales.
+
+
+# 📱 Practica 1 con Flutter - Ejercicio con BottomNavigationBar
+
+Este proyecto es una práctica en **Flutter** que replica la app hecha previamente en **Kotlin**, pero utilizando **Widgets** y **BottomNavigationBar**.  
+La app incluye cinco pantallas que muestran diferentes elementos de interfaz de usuario en Flutter.
+
+---
+
+## 🚀 Características
+
+- Uso de **BottomNavigationBar** para navegar entre pantallas.  
+- Cada pantalla demuestra un tipo de widget común en Flutter:
+  - **TextFieldsScreen** → Campos de texto.
+  - **BotonesScreen** → Botones e interacciones.
+  - **SeleccionScreen** → CheckBox, RadioButton, Switch.
+  - **ListasScreen** → ListView dinámico.
+  - **InformacionScreen** → Texto, Imagen y ProgressBar.  
+- Ejemplos **interactivos** en cada pantalla.  
+- Diseño sencillo y modular.  
+
+---
+
+## 📂 Estructura del Proyecto
+lib/
+├─ main.dart
+├─ screens/
+│ ├─ textfields_screen.dart
+│ ├─ botones_screen.dart
+│ ├─ seleccion_screen.dart
+│ ├─ listas_screen.dart
+│ └─ informacion_screen.dart
+
+
+---
+
+## ⚙️ Requisitos
+
+- **Flutter SDK** (>=3.0.0 recomendado).  
+- **Android Studio** o **VS Code** configurados con Flutter.  
+- **Dispositivo físico** o **emulador** Android/iOS.  
+
+---
+
+## ▶️ Ejecución
+
+1. Clona este repositorio:  
+
+```bash
+git clone https://github.com/tu-usuario/flutter-practica-fragments.git
+
+2. Instala dependencias:
+
+flutter pub get
+
+
+3. Conecta tu dispositivo o abre un emulador.
+
+Ejecuta la app en modo debug:
+
+flutter run
+
+
+4. Para generar un APK instalable:
+
+flutter build apk --release
+
+
+5. El archivo estará en:
+
+/build/app/outputs/flutter-apk/app-release.apk
+
+📸 Evidencias
+![Screenshot_20250921-225745](https://github.com/user-attachments/assets/0cd70938-fb3a-4050-9ec6-c4c5fee12ac1)
+![Screenshot_20250921-225756](https://github.com/user-attachments/assets/b3e99433-af5b-4186-9190-d555ae7192b3)
+![Screenshot_20250921-225815](https://github.com/user-attachments/assets/cbb10263-9567-4843-96c5-7e0893c66e4a)
+![Screenshot_20250921-225825](https://github.com/user-attachments/assets/ac477ac3-0543-4d82-813b-40723c3e85ca)
+![Screenshot_20250921-225834](https://github.com/user-attachments/assets/339e3d3c-9558-4f71-a1b6-ffb28a28cebb)
+
+⚡ Dificultades encontradas
+
+Error de referencia en ListasScreen → resuelto verificando el nombre de la clase y el import correcto.
+
+Limpieza de caché necesaria (flutter clean) cuando los cambios no se reflejaban.
+
+Ajustes de BottomNavigationBar para mantener el estado entre pantallas.
+
+🔍 Hallazgos
+
+Flutter facilita la creación de UI con widgets reutilizables en lugar de fragments.
+
+La gestión de estado simple (setState) es suficiente para este ejercicio.
+
+La equivalencia entre Fragments en Kotlin y Screens en Flutter ayuda a comprender ambos enfoques.
+
+
+✍️ Autor: Diego Francisco Hernández Pérez
 
 
 
